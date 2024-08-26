@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/appbar.dart';
 import 'package:flutter_application_1/bottomnavigationbar.dart';
+import 'package:flutter_application_1/columwidget.dart';
+import 'package:flutter_application_1/container_widget.dart';
+import 'package:flutter_application_1/rowwidget.dart';
 import 'package:flutter_application_1/test.dart';
 void main()
 {
@@ -17,7 +20,7 @@ class MyApp extends StatelessWidget{
  return MaterialApp(
   debugShowCheckedModeBanner: false,
   title: "Flutter Demo",
-  home:TestWidget (),
+  home:ColumnWidgetExample(),
  );
   }
 }
