@@ -12,6 +12,7 @@ import 'package:flutter_application_1/imagewidget.dart';
 import 'package:flutter_application_1/listtilewatssapp.dart';
 import 'package:flutter_application_1/listtitlewidget.dart';
 import 'package:flutter_application_1/listviewbuilder.dart';
+import 'package:flutter_application_1/listviewseparator.dart';
 import 'package:flutter_application_1/rowwidget.dart';
 import 'package:flutter_application_1/test.dart';
 void main()
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget{
  return MaterialApp(
   debugShowCheckedModeBanner: false,
   title: "Flutter Demo",
-  home:CardWidgetExample (),
+  home:ListViewSeparator(),
  );
   }
 }
